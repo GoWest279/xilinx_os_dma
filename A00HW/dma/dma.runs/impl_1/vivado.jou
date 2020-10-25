@@ -2,8 +2,8 @@
 # Vivado v2017.2 (64-bit)
 # SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
 # IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
-# Start of session at: Sun Oct 25 12:18:50 2020
-# Process ID: 13906
+# Start of session at: Sun Oct 25 15:01:15 2020
+# Process ID: 26065
 # Current directory: /home/ad2039/A02DMA/A00HW/dma/dma.runs/impl_1
 # Command line: vivado -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
 # Log file: /home/ad2039/A02DMA/A00HW/dma/dma.runs/impl_1/design_1_wrapper.vdi

@@ -1330,11 +1330,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Oct 25 19:14:35 UTC 2020</spirit:value>
+            <spirit:value>Sun Oct 25 21:57:50 UTC 2020</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:ae062d6d</spirit:value>
+            <spirit:value>7:351c4a4e</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1345,7 +1345,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:ae062d6d</spirit:value>
+            <spirit:value>7:351c4a4e</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1360,11 +1360,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Oct 25 19:14:35 UTC 2020</spirit:value>
+            <spirit:value>Sun Oct 25 21:57:51 UTC 2020</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:ae062d6d</spirit:value>
+            <spirit:value>7:351c4a4e</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1382,11 +1382,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Oct 25 19:14:35 UTC 2020</spirit:value>
+            <spirit:value>Sun Oct 25 21:57:50 UTC 2020</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:57fcaaaa</spirit:value>
+            <spirit:value>7:08db4869</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1401,11 +1401,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Oct 25 19:14:35 UTC 2020</spirit:value>
+            <spirit:value>Sun Oct 25 21:57:51 UTC 2020</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:57fcaaaa</spirit:value>
+            <spirit:value>7:08db4869</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -3460,7 +3460,7 @@
       <spirit:modelParameter spirit:dataType="bitString">
         <spirit:name>C_SSC_ROUTE_ARRAY</spirit:name>
         <spirit:displayName>C_SSC_ROUTE_ARRAY</spirit:displayName>
-        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_SSC_ROUTE_ARRAY" spirit:bitStringLength="24">0b000000000000100001010000</spirit:value>
+        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_SSC_ROUTE_ARRAY" spirit:bitStringLength="24">0b000000000100001010000000</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="long">
         <spirit:name>C_RDATA_WIDTH</spirit:name>
@@ -3819,22 +3819,22 @@
     <spirit:parameter>
       <spirit:name>SSC001_ROUTE</spirit:name>
       <spirit:displayName>SSC001_ROUTE</spirit:displayName>
-      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.SSC001_ROUTE" spirit:bitStringLength="3">0b010</spirit:value>
+      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.SSC001_ROUTE" spirit:bitStringLength="3">0b000</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>SSC002_ROUTE</spirit:name>
       <spirit:displayName>SSC002_ROUTE</spirit:displayName>
-      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.SSC002_ROUTE" spirit:bitStringLength="3">0b001</spirit:value>
+      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.SSC002_ROUTE" spirit:bitStringLength="3">0b010</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>SSC003_ROUTE</spirit:name>
       <spirit:displayName>SSC003_ROUTE</spirit:displayName>
-      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.SSC003_ROUTE" spirit:bitStringLength="3">0b100</spirit:value>
+      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.SSC003_ROUTE" spirit:bitStringLength="3">0b001</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>SSC004_ROUTE</spirit:name>
       <spirit:displayName>SSC004_ROUTE</spirit:displayName>
-      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.SSC004_ROUTE" spirit:bitStringLength="3">0b000</spirit:value>
+      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.SSC004_ROUTE" spirit:bitStringLength="3">0b100</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>SSC005_ROUTE</spirit:name>

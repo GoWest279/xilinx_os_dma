@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
-| Date         : Sun Oct 25 12:18:49 2020
+| Date         : Sun Oct 25 15:01:14 2020
 | Host         : ad2039 running 64-bit Ubuntu 16.04.6 LTS
 | Command      : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
 | Design       : design_1_wrapper
@@ -194,6 +194,7 @@ Table of Contents
 | design_1_zynq_ultra_ps_e_0_0 |    1 |
 | design_1_xlconcat_0_0        |    1 |
 | design_1_xbar_0              |    1 |
+| design_1_system_ila_0_0      |    1 |
 | design_1_rst_ps8_0_99M_1     |    1 |
 | design_1_axis_data_fifo_0_1  |    1 |
 | design_1_axi_smc_1           |    1 |
