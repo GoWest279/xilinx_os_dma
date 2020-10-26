@@ -1,7 +1,7 @@
--- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
--- Date        : Sun Oct 25 12:15:46 2020
+-- Tool Version: Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+-- Date        : Sun Oct 25 21:08:45 2020
 -- Host        : ad2039 running 64-bit Ubuntu 16.04.6 LTS
 -- Command     : write_vhdl -force -mode synth_stub
 --               /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0_stub.vhdl
@@ -64,6 +64,6 @@ attribute black_box_pad_pin : string;
 attribute syn_black_box of stub : architecture is true;
 attribute black_box_pad_pin of stub : architecture is "aclk,aresetn,s_axi_awaddr[79:0],s_axi_awprot[5:0],s_axi_awvalid[1:0],s_axi_awready[1:0],s_axi_wdata[63:0],s_axi_wstrb[7:0],s_axi_wvalid[1:0],s_axi_wready[1:0],s_axi_bresp[3:0],s_axi_bvalid[1:0],s_axi_bready[1:0],s_axi_araddr[79:0],s_axi_arprot[5:0],s_axi_arvalid[1:0],s_axi_arready[1:0],s_axi_rdata[63:0],s_axi_rresp[3:0],s_axi_rvalid[1:0],s_axi_rready[1:0],m_axi_awaddr[39:0],m_axi_awprot[2:0],m_axi_awvalid[0:0],m_axi_awready[0:0],m_axi_wdata[31:0],m_axi_wstrb[3:0],m_axi_wvalid[0:0],m_axi_wready[0:0],m_axi_bresp[1:0],m_axi_bvalid[0:0],m_axi_bready[0:0],m_axi_araddr[39:0],m_axi_arprot[2:0],m_axi_arvalid[0:0],m_axi_arready[0:0],m_axi_rdata[31:0],m_axi_rresp[1:0],m_axi_rvalid[0:0],m_axi_rready[0:0]";
 attribute X_CORE_INFO : string;
-attribute X_CORE_INFO of stub : architecture is "axi_crossbar_v2_1_14_axi_crossbar,Vivado 2017.2";
+attribute X_CORE_INFO of stub : architecture is "axi_crossbar_v2_1_19_axi_crossbar,Vivado 2018.3";
 begin
 end;

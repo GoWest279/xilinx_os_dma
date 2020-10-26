@@ -138,7 +138,43 @@ probe84,
 probe85,
 probe86,
 probe87,
-probe88
+probe88,
+probe89,
+probe90,
+probe91,
+probe92,
+probe93,
+probe94,
+probe95,
+probe96,
+probe97,
+probe98,
+probe99,
+probe100,
+probe101,
+probe102,
+probe103,
+probe104,
+probe105,
+probe106,
+probe107,
+probe108,
+probe109,
+probe110,
+probe111,
+probe112,
+probe113,
+probe114,
+probe115,
+probe116,
+probe117,
+probe118,
+probe119,
+probe120,
+probe121,
+probe122,
+probe123,
+probe124
 );
 
 input clk;
@@ -233,6 +269,42 @@ input [2 : 0] probe85;
 input [1 : 0] probe86;
 input [1 : 0] probe87;
 input [2 : 0] probe88;
+input [1 : 0] probe89;
+input [39 : 0] probe90;
+input [1 : 0] probe91;
+input [3 : 0] probe92;
+input [15 : 0] probe93;
+input [7 : 0] probe94;
+input [0 : 0] probe95;
+input [2 : 0] probe96;
+input [3 : 0] probe97;
+input [2 : 0] probe98;
+input [15 : 0] probe99;
+input [1 : 0] probe100;
+input [39 : 0] probe101;
+input [1 : 0] probe102;
+input [3 : 0] probe103;
+input [15 : 0] probe104;
+input [7 : 0] probe105;
+input [0 : 0] probe106;
+input [2 : 0] probe107;
+input [3 : 0] probe108;
+input [2 : 0] probe109;
+input [15 : 0] probe110;
+input [1 : 0] probe111;
+input [15 : 0] probe112;
+input [1 : 0] probe113;
+input [1 : 0] probe114;
+input [127 : 0] probe115;
+input [15 : 0] probe116;
+input [1 : 0] probe117;
+input [127 : 0] probe118;
+input [15 : 0] probe119;
+input [1 : 0] probe120;
+input [2 : 0] probe121;
+input [1 : 0] probe122;
+input [1 : 0] probe123;
+input [2 : 0] probe124;
 
 
 endmodule

@@ -1,7 +1,7 @@
-Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
-| Date         : Sun Oct 25 12:18:09 2020
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Sun Oct 25 21:10:25 2020
 | Host         : ad2039 running 64-bit Ubuntu 16.04.6 LTS
 | Command      : report_utilization -file design_1_axi_dma_0_1_utilization_synth.rpt -pb design_1_axi_dma_0_1_utilization_synth.pb
 | Design       : design_1_axi_dma_0_1
@@ -31,16 +31,16 @@ Table of Contents
 +----------------------------+------+-------+-----------+-------+
 |          Site Type         | Used | Fixed | Available | Util% |
 +----------------------------+------+-------+-----------+-------+
-| CLB LUTs*                  | 1986 |     0 |    274080 |  0.72 |
-|   LUT as Logic             | 1800 |     0 |    274080 |  0.66 |
-|   LUT as Memory            |  186 |     0 |    144000 |  0.13 |
+| CLB LUTs*                  | 2071 |     0 |    274080 |  0.76 |
+|   LUT as Logic             | 1883 |     0 |    274080 |  0.69 |
+|   LUT as Memory            |  188 |     0 |    144000 |  0.13 |
 |     LUT as Distributed RAM |    8 |     0 |           |       |
-|     LUT as Shift Register  |  178 |     0 |           |       |
-| CLB Registers              | 3091 |     0 |    548160 |  0.56 |
-|   Register as Flip Flop    | 3091 |     0 |    548160 |  0.56 |
+|     LUT as Shift Register  |  180 |     0 |           |       |
+| CLB Registers              | 3526 |     0 |    548160 |  0.64 |
+|   Register as Flip Flop    | 3526 |     0 |    548160 |  0.64 |
 |   Register as Latch        |    0 |     0 |    548160 |  0.00 |
-| CARRY8                     |   22 |     0 |     34260 |  0.06 |
-| F7 Muxes                   |    1 |     0 |    137040 | <0.01 |
+| CARRY8                     |   27 |     0 |     34260 |  0.08 |
+| F7 Muxes                   |    0 |     0 |    137040 |  0.00 |
 | F8 Muxes                   |    0 |     0 |     68520 |  0.00 |
 | F9 Muxes                   |    0 |     0 |     34260 |  0.00 |
 +----------------------------+------+-------+-----------+-------+
@@ -61,8 +61,8 @@ Table of Contents
 | 0     |          Yes |           - |            - |
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
-| 116   |          Yes |         Set |            - |
-| 2975  |          Yes |       Reset |            - |
+| 136   |          Yes |         Set |            - |
+| 3390  |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -155,20 +155,19 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDRE     | 2975 |            Register |
-| LUT3     |  524 |                 CLB |
-| LUT6     |  514 |                 CLB |
-| LUT4     |  387 |                 CLB |
-| LUT2     |  274 |                 CLB |
-| LUT5     |  268 |                 CLB |
-| SRL16E   |  178 |                 CLB |
-| LUT1     |  137 |                 CLB |
-| FDSE     |  116 |            Register |
-| CARRY8   |   22 |                 CLB |
+| FDRE     | 3390 |            Register |
+| LUT3     |  566 |                 CLB |
+| LUT4     |  501 |                 CLB |
+| LUT6     |  457 |                 CLB |
+| LUT5     |  354 |                 CLB |
+| LUT2     |  305 |                 CLB |
+| SRL16E   |  180 |                 CLB |
+| FDSE     |  136 |            Register |
+| LUT1     |   96 |                 CLB |
+| CARRY8   |   27 |                 CLB |
 | RAMD32   |   14 |                 CLB |
 | RAMS32   |    2 |                 CLB |
 | RAMB36E2 |    2 |           Block Ram |
-| MUXF7    |    1 |                 CLB |
 +----------+------+---------------------+
 
 

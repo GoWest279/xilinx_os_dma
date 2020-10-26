@@ -1,7 +1,7 @@
--- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
--- Date        : Sun Oct 25 12:16:23 2020
+-- Tool Version: Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+-- Date        : Sun Oct 25 21:08:25 2020
 -- Host        : ad2039 running 64-bit Ubuntu 16.04.6 LTS
 -- Command     : write_vhdl -force -mode synth_stub
 --               /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axis_data_fifo_0_1/design_1_axis_data_fifo_0_1_stub.vhdl
@@ -26,7 +26,6 @@ entity design_1_axis_data_fifo_0_1 is
     m_axis_tdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
     m_axis_tkeep : out STD_LOGIC_VECTOR ( 3 downto 0 );
     m_axis_tlast : out STD_LOGIC;
-    axis_data_count : out STD_LOGIC_VECTOR ( 31 downto 0 );
     axis_wr_data_count : out STD_LOGIC_VECTOR ( 31 downto 0 );
     axis_rd_data_count : out STD_LOGIC_VECTOR ( 31 downto 0 )
   );
@@ -37,8 +36,8 @@ architecture stub of design_1_axis_data_fifo_0_1 is
 attribute syn_black_box : boolean;
 attribute black_box_pad_pin : string;
 attribute syn_black_box of stub : architecture is true;
-attribute black_box_pad_pin of stub : architecture is "s_axis_aresetn,s_axis_aclk,s_axis_tvalid,s_axis_tready,s_axis_tdata[31:0],s_axis_tkeep[3:0],s_axis_tlast,m_axis_tvalid,m_axis_tready,m_axis_tdata[31:0],m_axis_tkeep[3:0],m_axis_tlast,axis_data_count[31:0],axis_wr_data_count[31:0],axis_rd_data_count[31:0]";
+attribute black_box_pad_pin of stub : architecture is "s_axis_aresetn,s_axis_aclk,s_axis_tvalid,s_axis_tready,s_axis_tdata[31:0],s_axis_tkeep[3:0],s_axis_tlast,m_axis_tvalid,m_axis_tready,m_axis_tdata[31:0],m_axis_tkeep[3:0],m_axis_tlast,axis_wr_data_count[31:0],axis_rd_data_count[31:0]";
 attribute X_CORE_INFO : string;
-attribute X_CORE_INFO of stub : architecture is "axis_data_fifo_v1_1_14_axis_data_fifo,Vivado 2017.2";
+attribute X_CORE_INFO of stub : architecture is "axis_data_fifo_v2_0_0_top,Vivado 2018.3";
 begin
 end;

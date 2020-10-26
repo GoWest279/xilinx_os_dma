@@ -1,6 +1,14 @@
-14:37:04 **** Incremental Build of configuration Debug for project hello_world ****
+22:43:42 **** Incremental Build of configuration Debug for project hello_world ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/helloworld.c
+Invoking: ARM A53 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:50:10: fatal error: xil_printf.h: No such file or directory
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+ #include "xil_printf.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] Error 1
 
-14:37:04 Build Finished (took 410ms)
+22:43:42 Build Finished (took 472ms)
 

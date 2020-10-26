@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xczu9eg-ffvb1156-2-i" LaunchTime="1603663078">
+<GenRun Id="impl_1" LaunchPart="xczu9eg-ffvb1156-2-i" LaunchTime="1603692830">
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="BG-DRC" Name="design_1_wrapper.drc"/>
   <File Type="BG-BGN" Name="design_1_wrapper.bgn"/>
   <File Type="BITSTR-SYSDEF" Name="design_1_wrapper.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="design_1_wrapper.ltx"/>
   <File Type="BITSTR-MMI" Name="design_1_wrapper.mmi"/>
   <File Type="BITSTR-BMM" Name="design_1_wrapper_bd.bmm"/>
   <File Type="BITSTR-NKY" Name="design_1_wrapper.nky"/>
@@ -11,11 +13,16 @@
   <File Type="BITSTR-MSK" Name="design_1_wrapper.msk"/>
   <File Type="BG-BIN" Name="design_1_wrapper.bin"/>
   <File Type="BG-BIT" Name="design_1_wrapper.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="design_1_wrapper_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="design_1_wrapper_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="design_1_wrapper_bus_skew_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="design_1_wrapper.vdi"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="design_1_wrapper_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="design_1_wrapper_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="design_1_wrapper_timing_summary_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="design_1_wrapper_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="design_1_wrapper_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="design_1_wrapper_bus_skew_routed.rpt"/>
   <File Type="ROUTE-CLK" Name="design_1_wrapper_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-SIMILARITY" Name="design_1_wrapper_incremental_reuse_routed.rpt"/>
   <File Type="ROUTE-TIMING-RPX" Name="design_1_wrapper_timing_summary_routed.rpx"/>
@@ -39,7 +46,7 @@
   <File Type="PHYSOPT-DRC" Name="design_1_wrapper_drc_physopted.rpt"/>
   <File Type="PHYSOPT-DCP" Name="design_1_wrapper_physopt.dcp"/>
   <File Type="POSTPLACE-PWROPT-TIMING" Name="design_1_wrapper_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="RDI-RDI" Name="design_1_wrapper.vdi"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="design_1_wrapper_postplace_pwropt.dcp"/>
   <File Type="PLACE-TIMING" Name="design_1_wrapper_timing_summary_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="design_1_wrapper_incremental_reuse_pre_placed.rpt"/>
   <File Type="PLACE-SIMILARITY" Name="design_1_wrapper_incremental_reuse_placed.rpt"/>
@@ -58,7 +65,9 @@
   <File Type="OPT-DRC" Name="design_1_wrapper_drc_opted.rpt"/>
   <File Type="OPT-DCP" Name="design_1_wrapper_opt.dcp"/>
   <File Type="INIT-TIMING" Name="design_1_wrapper_timing_summary_init.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="design_1_wrapper_postplace_pwropt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="design_1_wrapper_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="design_1_wrapper_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="design_1_wrapper_bus_skew_routed.pb"/>
   <File Type="PA-TCL" Name="design_1_wrapper.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
@@ -88,6 +97,12 @@
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
   <Strategy Version="1" Minor="2">
     <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
     <Step Id="init_design"/>
@@ -100,12 +115,12 @@
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_axi_dma_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_system_ila_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_zynq_ultra_ps_e_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_data_fifo_0_1"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_xbar_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_axi_smc_1"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_rst_ps8_0_99M_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_data_fifo_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axi_dma_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_system_ila_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_zynq_ultra_ps_e_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_xlconcat_0_0"/>
 </GenRun>

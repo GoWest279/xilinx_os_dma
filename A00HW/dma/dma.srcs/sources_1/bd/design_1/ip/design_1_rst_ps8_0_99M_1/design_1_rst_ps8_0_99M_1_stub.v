@@ -1,7 +1,7 @@
-// Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+// Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
-// Date        : Sun Oct 25 12:15:40 2020
+// Tool Version: Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+// Date        : Sun Oct 25 21:08:23 2020
 // Host        : ad2039 running 64-bit Ubuntu 16.04.6 LTS
 // Command     : write_verilog -force -mode synth_stub
 //               /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_1/design_1_rst_ps8_0_99M_1_stub.v
@@ -13,7 +13,7 @@
 // This empty module with port declaration file causes synthesis tools to infer a black box for IP.
 // The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
 // Please paste the declaration into a Verilog source file or add the file as an additional source.
-(* x_core_info = "proc_sys_reset,Vivado 2017.2" *)
+(* x_core_info = "proc_sys_reset,Vivado 2018.3" *)
 module design_1_rst_ps8_0_99M_1(slowest_sync_clk, ext_reset_in, aux_reset_in, 
   mb_debug_sys_rst, dcm_locked, mb_reset, bus_struct_reset, peripheral_reset, 
   interconnect_aresetn, peripheral_aresetn)

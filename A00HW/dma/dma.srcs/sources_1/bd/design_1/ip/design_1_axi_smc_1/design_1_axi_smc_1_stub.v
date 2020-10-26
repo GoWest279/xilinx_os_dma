@@ -1,7 +1,7 @@
-// Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+// Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
-// Date        : Sun Oct 25 12:16:55 2020
+// Tool Version: Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+// Date        : Sun Oct 25 21:09:46 2020
 // Host        : ad2039 running 64-bit Ubuntu 16.04.6 LTS
 // Command     : write_verilog -force -mode synth_stub
 //               /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/design_1_axi_smc_1_stub.v
@@ -13,7 +13,7 @@
 // This empty module with port declaration file causes synthesis tools to infer a black box for IP.
 // The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
 // Please paste the declaration into a Verilog source file or add the file as an additional source.
-(* X_CORE_INFO = "bd_6f02,Vivado 2017.2" *)
+(* X_CORE_INFO = "bd_6f02,Vivado 2018.3" *)
 module design_1_axi_smc_1(aclk, aresetn, S00_AXI_araddr, S00_AXI_arlen, 
   S00_AXI_arsize, S00_AXI_arburst, S00_AXI_arlock, S00_AXI_arcache, S00_AXI_arprot, 
   S00_AXI_arqos, S00_AXI_arvalid, S00_AXI_arready, S00_AXI_rdata, S00_AXI_rresp, 

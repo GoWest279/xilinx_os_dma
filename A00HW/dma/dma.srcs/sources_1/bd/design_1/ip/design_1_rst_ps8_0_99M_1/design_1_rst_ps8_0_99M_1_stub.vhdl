@@ -1,7 +1,7 @@
--- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
--- Date        : Sun Oct 25 12:15:40 2020
+-- Tool Version: Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+-- Date        : Sun Oct 25 21:08:23 2020
 -- Host        : ad2039 running 64-bit Ubuntu 16.04.6 LTS
 -- Command     : write_vhdl -force -mode synth_stub
 --               /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_1/design_1_rst_ps8_0_99M_1_stub.vhdl
@@ -34,6 +34,6 @@ attribute black_box_pad_pin : string;
 attribute syn_black_box of stub : architecture is true;
 attribute black_box_pad_pin of stub : architecture is "slowest_sync_clk,ext_reset_in,aux_reset_in,mb_debug_sys_rst,dcm_locked,mb_reset,bus_struct_reset[0:0],peripheral_reset[0:0],interconnect_aresetn[0:0],peripheral_aresetn[0:0]";
 attribute x_core_info : string;
-attribute x_core_info of stub : architecture is "proc_sys_reset,Vivado 2017.2";
+attribute x_core_info of stub : architecture is "proc_sys_reset,Vivado 2018.3";
 begin
 end;

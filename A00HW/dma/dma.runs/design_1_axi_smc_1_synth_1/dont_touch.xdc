@@ -7,91 +7,10 @@
 # Block Designs: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/bd_6f02.bd
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_10/bd_6f02_s00a2s_0.xci
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_0/bd_6f02_one_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_16/bd_6f02_s01a2s_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_25/bd_6f02_s02a2s_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_29/bd_6f02_m00s2a_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_35/bd_6f02_m00e_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_30/bd_6f02_m00arn_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_31/bd_6f02_m00rn_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_32/bd_6f02_m00awn_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_33/bd_6f02_m00wn_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_34/bd_6f02_m00bn_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_26/bd_6f02_sawn_1.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_27/bd_6f02_swn_1.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_28/bd_6f02_sbn_1.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_22/bd_6f02_s02mmu_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_23/bd_6f02_s02tr_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_24/bd_6f02_s02sic_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_17/bd_6f02_sarn_1.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_18/bd_6f02_srn_1.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_19/bd_6f02_sawn_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_20/bd_6f02_swn_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_21/bd_6f02_sbn_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_13/bd_6f02_s01mmu_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_14/bd_6f02_s01tr_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_15/bd_6f02_s01sic_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_11/bd_6f02_sarn_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_12/bd_6f02_srn_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_7/bd_6f02_s00mmu_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_8/bd_6f02_s00tr_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_9/bd_6f02_s00sic_0.xci
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_1/bd_6f02_psr_aclk_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
 # IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_2/bd_6f02_arsw_0.xci
@@ -109,17 +28,134 @@
 # IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_6/bd_6f02_bsw_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_0/bd_6f02_one_0.xci
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_7/bd_6f02_s00mmu_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_1/bd_6f02_psr_aclk_0.xci
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_8/bd_6f02_s00tr_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_9/bd_6f02_s00sic_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_10/bd_6f02_s00a2s_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_11/bd_6f02_sarn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_12/bd_6f02_srn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_13/bd_6f02_s01mmu_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_14/bd_6f02_s01tr_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_15/bd_6f02_s01sic_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_16/bd_6f02_s01a2s_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_17/bd_6f02_sarn_1.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_18/bd_6f02_srn_1.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_19/bd_6f02_sawn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_20/bd_6f02_swn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_21/bd_6f02_sbn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_22/bd_6f02_s02mmu_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_23/bd_6f02_s02tr_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_24/bd_6f02_s02sic_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_25/bd_6f02_s02a2s_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_26/bd_6f02_sawn_1.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_27/bd_6f02_swn_1.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_28/bd_6f02_sbn_1.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_29/bd_6f02_m00s2a_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_30/bd_6f02_m00arn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_31/bd_6f02_m00rn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_32/bd_6f02_m00awn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_33/bd_6f02_m00wn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_34/bd_6f02_m00bn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_35/bd_6f02_m00e_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_1/bd_6f02_psr_aclk_0_board.xdc
+# DONT_TOUCH constraint suppressed by parent sub-design file.
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_1/bd_6f02_psr_aclk_0.xdc
+# DONT_TOUCH constraint suppressed by parent sub-design file.
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_2/bd_6f02_arsw_0_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_3/bd_6f02_rsw_0_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_4/bd_6f02_awsw_0_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_5/bd_6f02_wsw_0_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_6/bd_6f02_bsw_0_ooc.xdc
 
 # XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_10/bd_6f02_s00a2s_0_ooc.xdc
 
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_11/bd_6f02_sarn_0_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_12/bd_6f02_srn_0_ooc.xdc
+
 # XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_16/bd_6f02_s01a2s_0_ooc.xdc
 
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_17/bd_6f02_sarn_1_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_18/bd_6f02_srn_1_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_19/bd_6f02_sawn_0_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_20/bd_6f02_swn_0_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_21/bd_6f02_sbn_0_ooc.xdc
+
 # XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_25/bd_6f02_s02a2s_0_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_26/bd_6f02_sawn_1_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_27/bd_6f02_swn_1_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_28/bd_6f02_sbn_1_ooc.xdc
 
 # XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_29/bd_6f02_m00s2a_0_ooc.xdc
 
@@ -133,45 +169,9 @@
 
 # XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_34/bd_6f02_m00bn_0_ooc.xdc
 
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_26/bd_6f02_sawn_1_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_27/bd_6f02_swn_1_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_28/bd_6f02_sbn_1_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_17/bd_6f02_sarn_1_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_18/bd_6f02_srn_1_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_19/bd_6f02_sawn_0_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_20/bd_6f02_swn_0_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_21/bd_6f02_sbn_0_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_11/bd_6f02_sarn_0_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_12/bd_6f02_srn_0_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_2/bd_6f02_arsw_0_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_3/bd_6f02_rsw_0_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_4/bd_6f02_awsw_0_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_5/bd_6f02_wsw_0_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_6/bd_6f02_bsw_0_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_1/bd_6f02_psr_aclk_0_board.xdc
-# DONT_TOUCH constraint suppressed by parent sub-design file.
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_1/bd_6f02_psr_aclk_0.xdc
-# DONT_TOUCH constraint suppressed by parent sub-design file.
-
 # XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/ooc.xdc
 # XDC: The top module name and the constraint reference have the same name: 'design_1_axi_smc_1'. Do not add the DONT_TOUCH constraint.
-set_property DONT_TOUCH TRUE [get_cells inst]
+set_property DONT_TOUCH TRUE [get_cells inst -quiet] -quiet
 
 # IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/design_1_axi_smc_1.xci
 # IP: The module: 'design_1_axi_smc_1' is the root of the design. Do not add the DONT_TOUCH constraint.
@@ -179,91 +179,10 @@ set_property DONT_TOUCH TRUE [get_cells inst]
 # Block Designs: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/bd_6f02.bd
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_10/bd_6f02_s00a2s_0.xci
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_0/bd_6f02_one_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_16/bd_6f02_s01a2s_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_25/bd_6f02_s02a2s_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_29/bd_6f02_m00s2a_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_35/bd_6f02_m00e_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_30/bd_6f02_m00arn_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_31/bd_6f02_m00rn_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_32/bd_6f02_m00awn_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_33/bd_6f02_m00wn_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_34/bd_6f02_m00bn_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_26/bd_6f02_sawn_1.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_27/bd_6f02_swn_1.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_28/bd_6f02_sbn_1.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_22/bd_6f02_s02mmu_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_23/bd_6f02_s02tr_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_24/bd_6f02_s02sic_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_17/bd_6f02_sarn_1.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_18/bd_6f02_srn_1.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_19/bd_6f02_sawn_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_20/bd_6f02_swn_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_21/bd_6f02_sbn_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_13/bd_6f02_s01mmu_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_14/bd_6f02_s01tr_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_15/bd_6f02_s01sic_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_11/bd_6f02_sarn_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_12/bd_6f02_srn_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_7/bd_6f02_s00mmu_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_8/bd_6f02_s00tr_0.xci
-# DONT_TOUCH constraint suppressed by (parent) sub-design file.
-
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_9/bd_6f02_s00sic_0.xci
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_1/bd_6f02_psr_aclk_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
 # IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_2/bd_6f02_arsw_0.xci
@@ -281,17 +200,134 @@ set_property DONT_TOUCH TRUE [get_cells inst]
 # IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_6/bd_6f02_bsw_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_0/bd_6f02_one_0.xci
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_7/bd_6f02_s00mmu_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_1/bd_6f02_psr_aclk_0.xci
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_8/bd_6f02_s00tr_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_9/bd_6f02_s00sic_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_10/bd_6f02_s00a2s_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_11/bd_6f02_sarn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_12/bd_6f02_srn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_13/bd_6f02_s01mmu_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_14/bd_6f02_s01tr_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_15/bd_6f02_s01sic_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_16/bd_6f02_s01a2s_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_17/bd_6f02_sarn_1.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_18/bd_6f02_srn_1.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_19/bd_6f02_sawn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_20/bd_6f02_swn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_21/bd_6f02_sbn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_22/bd_6f02_s02mmu_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_23/bd_6f02_s02tr_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_24/bd_6f02_s02sic_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_25/bd_6f02_s02a2s_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_26/bd_6f02_sawn_1.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_27/bd_6f02_swn_1.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_28/bd_6f02_sbn_1.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_29/bd_6f02_m00s2a_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_30/bd_6f02_m00arn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_31/bd_6f02_m00rn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_32/bd_6f02_m00awn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_33/bd_6f02_m00wn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_34/bd_6f02_m00bn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_35/bd_6f02_m00e_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_1/bd_6f02_psr_aclk_0_board.xdc
+# DONT_TOUCH constraint suppressed by parent sub-design file.
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_1/bd_6f02_psr_aclk_0.xdc
+# DONT_TOUCH constraint suppressed by parent sub-design file.
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_2/bd_6f02_arsw_0_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_3/bd_6f02_rsw_0_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_4/bd_6f02_awsw_0_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_5/bd_6f02_wsw_0_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_6/bd_6f02_bsw_0_ooc.xdc
 
 # XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_10/bd_6f02_s00a2s_0_ooc.xdc
 
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_11/bd_6f02_sarn_0_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_12/bd_6f02_srn_0_ooc.xdc
+
 # XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_16/bd_6f02_s01a2s_0_ooc.xdc
 
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_17/bd_6f02_sarn_1_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_18/bd_6f02_srn_1_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_19/bd_6f02_sawn_0_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_20/bd_6f02_swn_0_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_21/bd_6f02_sbn_0_ooc.xdc
+
 # XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_25/bd_6f02_s02a2s_0_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_26/bd_6f02_sawn_1_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_27/bd_6f02_swn_1_ooc.xdc
+
+# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_28/bd_6f02_sbn_1_ooc.xdc
 
 # XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_29/bd_6f02_m00s2a_0_ooc.xdc
 
@@ -305,42 +341,6 @@ set_property DONT_TOUCH TRUE [get_cells inst]
 
 # XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_34/bd_6f02_m00bn_0_ooc.xdc
 
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_26/bd_6f02_sawn_1_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_27/bd_6f02_swn_1_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_28/bd_6f02_sbn_1_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_17/bd_6f02_sarn_1_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_18/bd_6f02_srn_1_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_19/bd_6f02_sawn_0_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_20/bd_6f02_swn_0_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_21/bd_6f02_sbn_0_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_11/bd_6f02_sarn_0_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_12/bd_6f02_srn_0_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_2/bd_6f02_arsw_0_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_3/bd_6f02_rsw_0_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_4/bd_6f02_awsw_0_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_5/bd_6f02_wsw_0_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_6/bd_6f02_bsw_0_ooc.xdc
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_1/bd_6f02_psr_aclk_0_board.xdc
-# DONT_TOUCH constraint suppressed by parent sub-design file.
-
-# XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_1/bd_6f02_psr_aclk_0.xdc
-# DONT_TOUCH constraint suppressed by parent sub-design file.
-
 # XDC: /home/ad2039/A02DMA/A00HW/dma/dma.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/ooc.xdc
 # XDC: The top module name and the constraint reference have the same name: 'design_1_axi_smc_1'. Do not add the DONT_TOUCH constraint.
-#dup# set_property DONT_TOUCH TRUE [get_cells inst]
+#dup# set_property DONT_TOUCH TRUE [get_cells inst -quiet] -quiet

@@ -1,5 +1,5 @@
 connect -url tcp:127.0.0.1:3121
-source /opt/Xilinx/SDK/2017.2/scripts/sdk/util/zynqmp_utils.tcl
+source /tools/Xilinx/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl
 targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7B204"} -index 1
 rst -system
 after 3000

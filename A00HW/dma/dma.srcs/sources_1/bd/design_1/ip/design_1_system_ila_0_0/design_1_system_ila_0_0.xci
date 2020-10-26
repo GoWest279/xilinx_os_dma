@@ -7,13 +7,15 @@
   <spirit:componentInstances>
     <spirit:componentInstance>
       <spirit:instanceName>design_1_system_ila_0_0</spirit:instanceName>
-      <spirit:componentRef spirit:vendor="xilinx.com" spirit:library="ip" spirit:name="system_ila" spirit:version="1.0"/>
+      <spirit:componentRef spirit:vendor="xilinx.com" spirit:library="ip" spirit:name="system_ila" spirit:version="1.1"/>
       <spirit:configurableElementValues>
-        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CLK.CLK.ASSOCIATED_BUSIF">SLOT_0_AXI:SLOT_1_AXIS:SLOT_2_AXIS:SLOT_3_AXI:SLOT_4_AXI:SLOT_5_AXI</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CLK.CLK.ASSOCIATED_BUSIF">SLOT_0_AXI:SLOT_1_AXIS:SLOT_2_AXIS:SLOT_3_AXI:SLOT_4_AXI:SLOT_5_AXI:SLOT_6_AXI</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CLK.CLK.ASSOCIATED_RESET">resetn</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CLK.CLK.CLK_DOMAIN">design_1_zynq_ultra_ps_e_0_0_pl_clk0</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CLK.CLK.FREQ_HZ">99999000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CLK.CLK.FREQ_HZ">99999001</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CLK.CLK.INSERT_VIP">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CLK.CLK.PHASE">0.000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.RST.RESETN.INSERT_VIP">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.RST.RESETN.POLARITY">ACTIVE_LOW</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.ADDR_WIDTH">10</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.ARUSER_WIDTH">0</spirit:configurableElementValue>
@@ -21,7 +23,7 @@
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.BUSER_WIDTH">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.CLK_DOMAIN">design_1_zynq_ultra_ps_e_0_0_pl_clk0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.DATA_WIDTH">32</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.FREQ_HZ">99999000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.FREQ_HZ">99999001</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_BRESP">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_BURST">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_CACHE">0</spirit:configurableElementValue>
@@ -32,6 +34,7 @@
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_RRESP">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_WSTRB">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.ID_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.INSERT_VIP">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.MAX_BURST_LENGTH">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.NUM_READ_OUTSTANDING">2</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.NUM_READ_THREADS">1</spirit:configurableElementValue>
@@ -46,11 +49,12 @@
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.WUSER_BITS_PER_BYTE">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.WUSER_WIDTH">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.CLK_DOMAIN">design_1_zynq_ultra_ps_e_0_0_pl_clk0</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.FREQ_HZ">99999000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.FREQ_HZ">99999001</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.HAS_TKEEP">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.HAS_TLAST">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.HAS_TREADY">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.HAS_TSTRB">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.INSERT_VIP">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.LAYERED_METADATA">undef</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.PHASE">0.000</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.TDATA_NUM_BYTES">4</spirit:configurableElementValue>
@@ -58,11 +62,12 @@
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.TID_WIDTH">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.TUSER_WIDTH">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.CLK_DOMAIN">design_1_zynq_ultra_ps_e_0_0_pl_clk0</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.FREQ_HZ">99999000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.FREQ_HZ">99999001</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.HAS_TKEEP">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.HAS_TLAST">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.HAS_TREADY">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.HAS_TSTRB">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.INSERT_VIP">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.LAYERED_METADATA">undef</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.PHASE">0.000</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.TDATA_NUM_BYTES">4</spirit:configurableElementValue>
@@ -75,7 +80,7 @@
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.BUSER_WIDTH">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.CLK_DOMAIN">design_1_zynq_ultra_ps_e_0_0_pl_clk0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.DATA_WIDTH">32</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.FREQ_HZ">99999000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.FREQ_HZ">99999001</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_BRESP">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_BURST">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_CACHE">1</spirit:configurableElementValue>
@@ -86,6 +91,7 @@
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_RRESP">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_WSTRB">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.ID_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.INSERT_VIP">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.MAX_BURST_LENGTH">16</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.NUM_READ_OUTSTANDING">2</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.NUM_READ_THREADS">1</spirit:configurableElementValue>
@@ -105,7 +111,7 @@
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.BUSER_WIDTH">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.CLK_DOMAIN">design_1_zynq_ultra_ps_e_0_0_pl_clk0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.DATA_WIDTH">32</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.FREQ_HZ">99999000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.FREQ_HZ">99999001</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_BRESP">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_BURST">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_CACHE">0</spirit:configurableElementValue>
@@ -116,8 +122,9 @@
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_RRESP">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_WSTRB">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.ID_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.INSERT_VIP">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.MAX_BURST_LENGTH">16</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.NUM_READ_OUTSTANDING">2</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.NUM_READ_OUTSTANDING">16</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.NUM_READ_THREADS">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.NUM_WRITE_OUTSTANDING">2</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.NUM_WRITE_THREADS">1</spirit:configurableElementValue>
@@ -135,7 +142,7 @@
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.BUSER_WIDTH">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.CLK_DOMAIN">design_1_zynq_ultra_ps_e_0_0_pl_clk0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.DATA_WIDTH">32</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.FREQ_HZ">99999000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.FREQ_HZ">99999001</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_BRESP">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_BURST">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_CACHE">0</spirit:configurableElementValue>
@@ -146,10 +153,11 @@
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_RRESP">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_WSTRB">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.ID_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.INSERT_VIP">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.MAX_BURST_LENGTH">16</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.NUM_READ_OUTSTANDING">2</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.NUM_READ_THREADS">1</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.NUM_WRITE_OUTSTANDING">2</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.NUM_WRITE_OUTSTANDING">16</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.NUM_WRITE_THREADS">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.PHASE">0.000</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.PROTOCOL">AXI4</spirit:configurableElementValue>
@@ -159,18 +167,49 @@
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.SUPPORTS_NARROW_BURST">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.WUSER_BITS_PER_BYTE">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.WUSER_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.ADDR_WIDTH">40</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.ARUSER_WIDTH">16</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.AWUSER_WIDTH">16</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.BUSER_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.CLK_DOMAIN">design_1_zynq_ultra_ps_e_0_0_pl_clk0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.DATA_WIDTH">128</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.FREQ_HZ">99999001</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.HAS_BRESP">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.HAS_BURST">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.HAS_CACHE">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.HAS_LOCK">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.HAS_PROT">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.HAS_QOS">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.HAS_REGION">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.HAS_RRESP">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.HAS_WSTRB">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.ID_WIDTH">16</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.INSERT_VIP">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.MAX_BURST_LENGTH">256</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.NUM_READ_OUTSTANDING">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.NUM_READ_THREADS">4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.NUM_WRITE_OUTSTANDING">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.NUM_WRITE_THREADS">4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.PHASE">0.000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.PROTOCOL">AXI4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.READ_WRITE_MODE">READ_WRITE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.RUSER_BITS_PER_BYTE">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.RUSER_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.SUPPORTS_NARROW_BURST">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.WUSER_BITS_PER_BYTE">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.WUSER_WIDTH">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.ALL_PROBE_SAME_MU">TRUE</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.ALL_PROBE_SAME_MU_CNT">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_ADV_TRIGGER">FALSE</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_BRAM_CNT">18.5</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_DATA_DEPTH">1024</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_BRAM_CNT">560</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_DATA_DEPTH">16384</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_DDR_CLK_GEN">FALSE</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_EN_DDR_ILA">FALSE</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_EN_STRG_QUAL">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_EN_TIME_TAG">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_INPUT_PIPE_STAGES">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_MON_TYPE">INTERFACE</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_NUM_MONITOR_SLOTS">6</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_NUM_MONITOR_SLOTS">7</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_NUM_OF_PROBES">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_PROBE0_MU_CNT">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_PROBE0_TYPE">0</spirit:configurableElementValue>
@@ -3247,6 +3286,15 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_PROBE_WIDTH_PROPAGATION">AUTO</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_0_APC_EN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_0_APC_MAX_AR_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_0_APC_MAX_AW_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_0_APC_MAX_B_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_0_APC_MAX_CONTINUOUS_RTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_0_APC_MAX_CONTINUOUS_WTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_0_APC_MAX_R_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_0_APC_MAX_WLAST_TO_AWVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_0_APC_MAX_WRITE_TO_BVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_0_APC_MAX_W_WAITS">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_0_APC_STS_EN">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_0_AXIS_TDATA_WIDTH">AUTO</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_0_AXIS_TDEST_WIDTH">AUTO</spirit:configurableElementValue>
@@ -3284,6 +3332,15 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_0_TXN_CNTR_EN">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_0_TYPE">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_10_APC_EN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_10_APC_MAX_AR_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_10_APC_MAX_AW_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_10_APC_MAX_B_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_10_APC_MAX_CONTINUOUS_RTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_10_APC_MAX_CONTINUOUS_WTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_10_APC_MAX_R_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_10_APC_MAX_WLAST_TO_AWVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_10_APC_MAX_WRITE_TO_BVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_10_APC_MAX_W_WAITS">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_10_APC_STS_EN">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_10_AXIS_TDATA_WIDTH">AUTO</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_10_AXIS_TDEST_WIDTH">AUTO</spirit:configurableElementValue>
@@ -3321,6 +3378,15 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_10_TXN_CNTR_EN">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_10_TYPE">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_11_APC_EN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_11_APC_MAX_AR_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_11_APC_MAX_AW_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_11_APC_MAX_B_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_11_APC_MAX_CONTINUOUS_RTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_11_APC_MAX_CONTINUOUS_WTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_11_APC_MAX_R_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_11_APC_MAX_WLAST_TO_AWVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_11_APC_MAX_WRITE_TO_BVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_11_APC_MAX_W_WAITS">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_11_APC_STS_EN">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_11_AXIS_TDATA_WIDTH">AUTO</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_11_AXIS_TDEST_WIDTH">AUTO</spirit:configurableElementValue>
@@ -3358,6 +3424,15 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_11_TXN_CNTR_EN">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_11_TYPE">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_12_APC_EN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_12_APC_MAX_AR_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_12_APC_MAX_AW_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_12_APC_MAX_B_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_12_APC_MAX_CONTINUOUS_RTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_12_APC_MAX_CONTINUOUS_WTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_12_APC_MAX_R_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_12_APC_MAX_WLAST_TO_AWVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_12_APC_MAX_WRITE_TO_BVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_12_APC_MAX_W_WAITS">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_12_APC_STS_EN">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_12_AXIS_TDATA_WIDTH">AUTO</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_12_AXIS_TDEST_WIDTH">AUTO</spirit:configurableElementValue>
@@ -3395,6 +3470,15 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_12_TXN_CNTR_EN">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_12_TYPE">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_13_APC_EN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_13_APC_MAX_AR_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_13_APC_MAX_AW_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_13_APC_MAX_B_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_13_APC_MAX_CONTINUOUS_RTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_13_APC_MAX_CONTINUOUS_WTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_13_APC_MAX_R_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_13_APC_MAX_WLAST_TO_AWVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_13_APC_MAX_WRITE_TO_BVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_13_APC_MAX_W_WAITS">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_13_APC_STS_EN">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_13_AXIS_TDATA_WIDTH">AUTO</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_13_AXIS_TDEST_WIDTH">AUTO</spirit:configurableElementValue>
@@ -3432,6 +3516,15 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_13_TXN_CNTR_EN">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_13_TYPE">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_14_APC_EN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_14_APC_MAX_AR_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_14_APC_MAX_AW_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_14_APC_MAX_B_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_14_APC_MAX_CONTINUOUS_RTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_14_APC_MAX_CONTINUOUS_WTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_14_APC_MAX_R_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_14_APC_MAX_WLAST_TO_AWVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_14_APC_MAX_WRITE_TO_BVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_14_APC_MAX_W_WAITS">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_14_APC_STS_EN">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_14_AXIS_TDATA_WIDTH">AUTO</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_14_AXIS_TDEST_WIDTH">AUTO</spirit:configurableElementValue>
@@ -3469,6 +3562,15 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_14_TXN_CNTR_EN">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_14_TYPE">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_15_APC_EN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_15_APC_MAX_AR_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_15_APC_MAX_AW_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_15_APC_MAX_B_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_15_APC_MAX_CONTINUOUS_RTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_15_APC_MAX_CONTINUOUS_WTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_15_APC_MAX_R_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_15_APC_MAX_WLAST_TO_AWVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_15_APC_MAX_WRITE_TO_BVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_15_APC_MAX_W_WAITS">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_15_APC_STS_EN">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_15_AXIS_TDATA_WIDTH">AUTO</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_15_AXIS_TDEST_WIDTH">AUTO</spirit:configurableElementValue>
@@ -3506,6 +3608,15 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_15_TXN_CNTR_EN">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_15_TYPE">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_1_APC_EN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_1_APC_MAX_AR_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_1_APC_MAX_AW_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_1_APC_MAX_B_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_1_APC_MAX_CONTINUOUS_RTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_1_APC_MAX_CONTINUOUS_WTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_1_APC_MAX_R_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_1_APC_MAX_WLAST_TO_AWVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_1_APC_MAX_WRITE_TO_BVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_1_APC_MAX_W_WAITS">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_1_APC_STS_EN">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_1_AXIS_TDATA_WIDTH">AUTO</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_1_AXIS_TDEST_WIDTH">AUTO</spirit:configurableElementValue>
@@ -3543,6 +3654,15 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_1_TXN_CNTR_EN">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_1_TYPE">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_2_APC_EN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_2_APC_MAX_AR_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_2_APC_MAX_AW_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_2_APC_MAX_B_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_2_APC_MAX_CONTINUOUS_RTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_2_APC_MAX_CONTINUOUS_WTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_2_APC_MAX_R_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_2_APC_MAX_WLAST_TO_AWVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_2_APC_MAX_WRITE_TO_BVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_2_APC_MAX_W_WAITS">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_2_APC_STS_EN">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_2_AXIS_TDATA_WIDTH">AUTO</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_2_AXIS_TDEST_WIDTH">AUTO</spirit:configurableElementValue>
@@ -3580,6 +3700,15 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_2_TXN_CNTR_EN">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_2_TYPE">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_3_APC_EN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_3_APC_MAX_AR_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_3_APC_MAX_AW_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_3_APC_MAX_B_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_3_APC_MAX_CONTINUOUS_RTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_3_APC_MAX_CONTINUOUS_WTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_3_APC_MAX_R_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_3_APC_MAX_WLAST_TO_AWVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_3_APC_MAX_WRITE_TO_BVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_3_APC_MAX_W_WAITS">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_3_APC_STS_EN">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_3_AXIS_TDATA_WIDTH">AUTO</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_3_AXIS_TDEST_WIDTH">AUTO</spirit:configurableElementValue>
@@ -3617,6 +3746,15 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_3_TXN_CNTR_EN">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_3_TYPE">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_4_APC_EN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_4_APC_MAX_AR_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_4_APC_MAX_AW_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_4_APC_MAX_B_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_4_APC_MAX_CONTINUOUS_RTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_4_APC_MAX_CONTINUOUS_WTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_4_APC_MAX_R_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_4_APC_MAX_WLAST_TO_AWVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_4_APC_MAX_WRITE_TO_BVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_4_APC_MAX_W_WAITS">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_4_APC_STS_EN">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_4_AXIS_TDATA_WIDTH">AUTO</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_4_AXIS_TDEST_WIDTH">AUTO</spirit:configurableElementValue>
@@ -3654,6 +3792,15 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_4_TXN_CNTR_EN">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_4_TYPE">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_5_APC_EN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_5_APC_MAX_AR_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_5_APC_MAX_AW_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_5_APC_MAX_B_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_5_APC_MAX_CONTINUOUS_RTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_5_APC_MAX_CONTINUOUS_WTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_5_APC_MAX_R_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_5_APC_MAX_WLAST_TO_AWVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_5_APC_MAX_WRITE_TO_BVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_5_APC_MAX_W_WAITS">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_5_APC_STS_EN">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_5_AXIS_TDATA_WIDTH">AUTO</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_5_AXIS_TDEST_WIDTH">AUTO</spirit:configurableElementValue>
@@ -3691,6 +3838,15 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_5_TXN_CNTR_EN">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_5_TYPE">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_6_APC_EN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_6_APC_MAX_AR_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_6_APC_MAX_AW_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_6_APC_MAX_B_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_6_APC_MAX_CONTINUOUS_RTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_6_APC_MAX_CONTINUOUS_WTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_6_APC_MAX_R_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_6_APC_MAX_WLAST_TO_AWVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_6_APC_MAX_WRITE_TO_BVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_6_APC_MAX_W_WAITS">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_6_APC_STS_EN">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_6_AXIS_TDATA_WIDTH">AUTO</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_6_AXIS_TDEST_WIDTH">AUTO</spirit:configurableElementValue>
@@ -3728,6 +3884,15 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_6_TXN_CNTR_EN">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_6_TYPE">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_7_APC_EN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_7_APC_MAX_AR_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_7_APC_MAX_AW_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_7_APC_MAX_B_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_7_APC_MAX_CONTINUOUS_RTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_7_APC_MAX_CONTINUOUS_WTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_7_APC_MAX_R_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_7_APC_MAX_WLAST_TO_AWVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_7_APC_MAX_WRITE_TO_BVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_7_APC_MAX_W_WAITS">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_7_APC_STS_EN">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_7_AXIS_TDATA_WIDTH">AUTO</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_7_AXIS_TDEST_WIDTH">AUTO</spirit:configurableElementValue>
@@ -3765,6 +3930,15 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_7_TXN_CNTR_EN">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_7_TYPE">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_8_APC_EN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_8_APC_MAX_AR_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_8_APC_MAX_AW_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_8_APC_MAX_B_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_8_APC_MAX_CONTINUOUS_RTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_8_APC_MAX_CONTINUOUS_WTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_8_APC_MAX_R_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_8_APC_MAX_WLAST_TO_AWVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_8_APC_MAX_WRITE_TO_BVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_8_APC_MAX_W_WAITS">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_8_APC_STS_EN">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_8_AXIS_TDATA_WIDTH">AUTO</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_8_AXIS_TDEST_WIDTH">AUTO</spirit:configurableElementValue>
@@ -3802,6 +3976,15 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_8_TXN_CNTR_EN">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_8_TYPE">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_9_APC_EN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_9_APC_MAX_AR_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_9_APC_MAX_AW_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_9_APC_MAX_B_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_9_APC_MAX_CONTINUOUS_RTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_9_APC_MAX_CONTINUOUS_WTRANSFERS_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_9_APC_MAX_R_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_9_APC_MAX_WLAST_TO_AWVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_9_APC_MAX_WRITE_TO_BVALID_WAITS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_9_APC_MAX_W_WAITS">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_9_APC_STS_EN">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_9_AXIS_TDATA_WIDTH">AUTO</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.C_SLOT_9_AXIS_TDEST_WIDTH">AUTO</spirit:configurableElementValue>
@@ -3845,7 +4028,8 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.Component_Name">design_1_system_ila_0_0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.EN_BRAM_DRC">TRUE</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.ARCHITECTURE">zynquplus</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.BOARD">xilinx.com:zcu102:part0:3.0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.BASE_BOARD_PART"/>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.BOARD_CONNECTIONS"/>
         <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.DEVICE">xczu9eg</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.PACKAGE">ffvb1156</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.PREFHDL">VERILOG</spirit:configurableElementValue>
@@ -3856,136 +4040,199 @@
         <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.USE_RDI_CUSTOMIZATION">TRUE</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.USE_RDI_GENERATION">TRUE</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.IPCONTEXT">IP_Integrator</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.IPREVISION">3</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.IPREVISION">4</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.MANAGED">TRUE</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.OUTPUTDIR">.</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.SELECTEDSIMMODEL"/>
         <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.SHAREDDIR">../../ipshared</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.SWVERSION">2017.2</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.SWVERSION">2018.3</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.SYNTHESISFLOW">OUT_OF_CONTEXT</spirit:configurableElementValue>
       </spirit:configurableElementValues>
       <spirit:vendorExtensions>
         <xilinx:componentInstanceExtensions>
           <xilinx:configElementInfos>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLK.CLK.ASSOCIATED_BUSIF" xilinx:valueSource="user"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLK.CLK.ASSOCIATED_RESET" xilinx:valueSource="user"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLK.CLK.CLK_DOMAIN" xilinx:valueSource="default_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.RST.RESETN.POLARITY" xilinx:valueSource="constant"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.ADDR_WIDTH" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.CLK_DOMAIN" xilinx:valueSource="default_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.DATA_WIDTH" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.FREQ_HZ" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_BRESP" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_BURST" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_CACHE" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_LOCK" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_PROT" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_QOS" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_REGION" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_RRESP" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_WSTRB" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.ID_WIDTH" xilinx:valueSource="ip_propagated"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.MAX_BURST_LENGTH" xilinx:valueSource="ip_propagated"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.NUM_READ_OUTSTANDING" xilinx:valueSource="default_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.NUM_WRITE_OUTSTANDING" xilinx:valueSource="default_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.PROTOCOL" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.READ_WRITE_MODE" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.SUPPORTS_NARROW_BURST" xilinx:valueSource="ip_propagated"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.CLK_DOMAIN" xilinx:valueSource="default_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.FREQ_HZ" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.HAS_TKEEP" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.HAS_TLAST" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.HAS_TREADY" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.HAS_TSTRB" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.TDATA_NUM_BYTES" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.TDEST_WIDTH" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.TID_WIDTH" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.TUSER_WIDTH" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.CLK_DOMAIN" xilinx:valueSource="default_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.FREQ_HZ" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.HAS_TKEEP" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.HAS_TLAST" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.HAS_TREADY" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.HAS_TSTRB" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.TDATA_NUM_BYTES" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.TDEST_WIDTH" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.TID_WIDTH" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.TUSER_WIDTH" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.ADDR_WIDTH" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.ARUSER_WIDTH" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.AWUSER_WIDTH" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.BUSER_WIDTH" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.CLK_DOMAIN" xilinx:valueSource="default_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.DATA_WIDTH" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.FREQ_HZ" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_BRESP" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_BURST" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_CACHE" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_LOCK" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_PROT" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_QOS" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_REGION" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_RRESP" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_WSTRB" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.ID_WIDTH" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.MAX_BURST_LENGTH" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.NUM_READ_OUTSTANDING" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.NUM_WRITE_OUTSTANDING" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.PROTOCOL" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.READ_WRITE_MODE" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.RUSER_WIDTH" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.SUPPORTS_NARROW_BURST" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.WUSER_WIDTH" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.ADDR_WIDTH" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.ARUSER_WIDTH" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.AWUSER_WIDTH" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.BUSER_WIDTH" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.CLK_DOMAIN" xilinx:valueSource="default_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.DATA_WIDTH" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.FREQ_HZ" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_BRESP" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_BURST" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_CACHE" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_LOCK" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_PROT" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_QOS" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_REGION" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_RRESP" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_WSTRB" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.ID_WIDTH" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.MAX_BURST_LENGTH" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.NUM_READ_OUTSTANDING" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.NUM_WRITE_OUTSTANDING" xilinx:valueSource="default_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.PROTOCOL" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.READ_WRITE_MODE" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.RUSER_WIDTH" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.SUPPORTS_NARROW_BURST" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.WUSER_WIDTH" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.ADDR_WIDTH" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.ARUSER_WIDTH" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.AWUSER_WIDTH" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.BUSER_WIDTH" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.CLK_DOMAIN" xilinx:valueSource="default_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.DATA_WIDTH" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.FREQ_HZ" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_BRESP" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_BURST" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_CACHE" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_LOCK" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_PROT" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_QOS" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_REGION" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_RRESP" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_WSTRB" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.ID_WIDTH" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.MAX_BURST_LENGTH" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.NUM_READ_OUTSTANDING" xilinx:valueSource="default_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.NUM_WRITE_OUTSTANDING" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.PROTOCOL" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.READ_WRITE_MODE" xilinx:valueSource="user_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.RUSER_WIDTH" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.SUPPORTS_NARROW_BURST" xilinx:valueSource="constant_prop"/>
-            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.WUSER_WIDTH" xilinx:valueSource="constant_prop"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLK.CLK.ASSOCIATED_BUSIF" xilinx:valueSource="user" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLK.CLK.ASSOCIATED_RESET" xilinx:valueSource="user" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLK.CLK.CLK_DOMAIN" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLK.CLK.FREQ_HZ" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLK.CLK.PHASE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.RST.RESETN.POLARITY" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.ADDR_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.ARUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.AWUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.BUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.CLK_DOMAIN" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.DATA_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.FREQ_HZ" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_BRESP" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_BURST" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_CACHE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_LOCK" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_PROT" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_QOS" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_REGION" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_RRESP" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.HAS_WSTRB" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.ID_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.MAX_BURST_LENGTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.NUM_READ_OUTSTANDING" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.NUM_READ_THREADS" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.NUM_WRITE_OUTSTANDING" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.NUM_WRITE_THREADS" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.PHASE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.PROTOCOL" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.READ_WRITE_MODE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.RUSER_BITS_PER_BYTE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.RUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.SUPPORTS_NARROW_BURST" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.WUSER_BITS_PER_BYTE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_0_AXI.WUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.CLK_DOMAIN" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.FREQ_HZ" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.HAS_TKEEP" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.HAS_TLAST" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.HAS_TREADY" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.HAS_TSTRB" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.LAYERED_METADATA" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.PHASE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.TDATA_NUM_BYTES" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.TDEST_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.TID_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_1_AXIS.TUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.CLK_DOMAIN" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.FREQ_HZ" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.HAS_TKEEP" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.HAS_TLAST" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.HAS_TREADY" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.HAS_TSTRB" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.LAYERED_METADATA" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.PHASE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.TDATA_NUM_BYTES" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.TDEST_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.TID_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_2_AXIS.TUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.ADDR_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.ARUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.AWUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.BUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.CLK_DOMAIN" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.DATA_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.FREQ_HZ" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_BRESP" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_BURST" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_CACHE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_LOCK" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_PROT" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_QOS" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_REGION" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_RRESP" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.HAS_WSTRB" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.ID_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.MAX_BURST_LENGTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.NUM_READ_OUTSTANDING" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.NUM_READ_THREADS" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.NUM_WRITE_OUTSTANDING" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.NUM_WRITE_THREADS" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.PHASE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.PROTOCOL" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.READ_WRITE_MODE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.RUSER_BITS_PER_BYTE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.RUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.SUPPORTS_NARROW_BURST" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.WUSER_BITS_PER_BYTE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_3_AXI.WUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.ADDR_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.ARUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.AWUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.BUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.CLK_DOMAIN" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.DATA_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.FREQ_HZ" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_BRESP" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_BURST" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_CACHE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_LOCK" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_PROT" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_QOS" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_REGION" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_RRESP" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.HAS_WSTRB" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.ID_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.MAX_BURST_LENGTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.NUM_READ_OUTSTANDING" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.NUM_READ_THREADS" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.NUM_WRITE_OUTSTANDING" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.NUM_WRITE_THREADS" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.PHASE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.PROTOCOL" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.READ_WRITE_MODE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.RUSER_BITS_PER_BYTE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.RUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.SUPPORTS_NARROW_BURST" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.WUSER_BITS_PER_BYTE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_4_AXI.WUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.ADDR_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.ARUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.AWUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.BUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.CLK_DOMAIN" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.DATA_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.FREQ_HZ" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_BRESP" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_BURST" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_CACHE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_LOCK" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_PROT" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_QOS" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_REGION" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_RRESP" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.HAS_WSTRB" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.ID_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.MAX_BURST_LENGTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.NUM_READ_OUTSTANDING" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.NUM_READ_THREADS" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.NUM_WRITE_OUTSTANDING" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.NUM_WRITE_THREADS" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.PHASE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.PROTOCOL" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.READ_WRITE_MODE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.RUSER_BITS_PER_BYTE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.RUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.SUPPORTS_NARROW_BURST" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.WUSER_BITS_PER_BYTE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_5_AXI.WUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.ADDR_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.ARUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.AWUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.BUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.CLK_DOMAIN" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.DATA_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.FREQ_HZ" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.HAS_BRESP" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.HAS_BURST" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.HAS_CACHE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.HAS_LOCK" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.HAS_PROT" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.HAS_QOS" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.HAS_REGION" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.HAS_RRESP" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.HAS_WSTRB" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.ID_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.MAX_BURST_LENGTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.NUM_READ_OUTSTANDING" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.NUM_READ_THREADS" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.NUM_WRITE_OUTSTANDING" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.NUM_WRITE_THREADS" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.PHASE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.PROTOCOL" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.READ_WRITE_MODE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.RUSER_BITS_PER_BYTE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.RUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.SUPPORTS_NARROW_BURST" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.WUSER_BITS_PER_BYTE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SLOT_6_AXI.WUSER_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_BRAM_CNT" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_DATA_DEPTH" xilinx:valueSource="user"/>
             <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_MON_TYPE" xilinx:valueSource="user"/>
             <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_NUM_MONITOR_SLOTS" xilinx:valueSource="user"/>
             <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_SLOT_0_APC_EN" xilinx:valueSource="user"/>
@@ -4044,6 +4291,18 @@
             <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_SLOT_5_AXI_W_SEL_DATA" xilinx:valueSource="user"/>
             <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_SLOT_5_AXI_W_SEL_TRIG" xilinx:valueSource="user"/>
             <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_SLOT_5_INTF_TYPE" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_SLOT_6_APC_EN" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_SLOT_6_AXI_AR_SEL_DATA" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_SLOT_6_AXI_AR_SEL_TRIG" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_SLOT_6_AXI_AW_SEL_DATA" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_SLOT_6_AXI_AW_SEL_TRIG" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_SLOT_6_AXI_B_SEL_DATA" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_SLOT_6_AXI_B_SEL_TRIG" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_SLOT_6_AXI_R_SEL_DATA" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_SLOT_6_AXI_R_SEL_TRIG" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_SLOT_6_AXI_W_SEL_DATA" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_SLOT_6_AXI_W_SEL_TRIG" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_SLOT_6_INTF_TYPE" xilinx:valueSource="user"/>
           </xilinx:configElementInfos>
         </xilinx:componentInstanceExtensions>
       </spirit:vendorExtensions>

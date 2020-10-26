@@ -1,7 +1,7 @@
-Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
-| Date         : Sun Oct 25 12:16:55 2020
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Sun Oct 25 21:09:46 2020
 | Host         : ad2039 running 64-bit Ubuntu 16.04.6 LTS
 | Command      : report_utilization -file design_1_axi_smc_1_utilization_synth.rpt -pb design_1_axi_smc_1_utilization_synth.pb
 | Design       : design_1_axi_smc_1
@@ -31,13 +31,13 @@ Table of Contents
 +----------------------------+------+-------+-----------+-------+
 |          Site Type         | Used | Fixed | Available | Util% |
 +----------------------------+------+-------+-----------+-------+
-| CLB LUTs*                  | 5086 |     0 |    274080 |  1.86 |
-|   LUT as Logic             | 3711 |     0 |    274080 |  1.35 |
-|   LUT as Memory            | 1375 |     0 |    144000 |  0.95 |
-|     LUT as Distributed RAM | 1324 |     0 |           |       |
-|     LUT as Shift Register  |   51 |     0 |           |       |
-| CLB Registers              | 4468 |     0 |    548160 |  0.82 |
-|   Register as Flip Flop    | 4468 |     0 |    548160 |  0.82 |
+| CLB LUTs*                  | 4213 |     0 |    274080 |  1.54 |
+|   LUT as Logic             | 2872 |     0 |    274080 |  1.05 |
+|   LUT as Memory            | 1341 |     0 |    144000 |  0.93 |
+|     LUT as Distributed RAM | 1292 |     0 |           |       |
+|     LUT as Shift Register  |   49 |     0 |           |       |
+| CLB Registers              | 6529 |     0 |    548160 |  1.19 |
+|   Register as Flip Flop    | 6529 |     0 |    548160 |  1.19 |
 |   Register as Latch        |    0 |     0 |    548160 |  0.00 |
 | CARRY8                     |    0 |     0 |     34260 |  0.00 |
 | F7 Muxes                   |    0 |     0 |    137040 |  0.00 |
@@ -61,8 +61,8 @@ Table of Contents
 | 0     |          Yes |           - |            - |
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
-| 136   |          Yes |         Set |            - |
-| 4332  |          Yes |       Reset |            - |
+| 211   |          Yes |         Set |            - |
+| 6318  |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -154,18 +154,17 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDRE     | 4332 |            Register |
-| RAMD32   | 2302 |                 CLB |
-| LUT4     | 1938 |                 CLB |
-| LUT6     |  835 |                 CLB |
-| LUT2     |  516 |                 CLB |
-| LUT5     |  446 |                 CLB |
-| LUT3     |  383 |                 CLB |
-| RAMS32   |  326 |                 CLB |
-| LUT1     |  200 |                 CLB |
-| FDSE     |  136 |            Register |
-| SRLC32E  |   50 |                 CLB |
-| SRL16E   |    1 |                 CLB |
+| FDRE     | 6318 |            Register |
+| RAMD32   | 2246 |                 CLB |
+| LUT3     | 1525 |                 CLB |
+| LUT4     |  774 |                 CLB |
+| LUT6     |  652 |                 CLB |
+| LUT5     |  520 |                 CLB |
+| RAMS32   |  318 |                 CLB |
+| LUT2     |  257 |                 CLB |
+| FDSE     |  211 |            Register |
+| LUT1     |  206 |                 CLB |
+| SRL16E   |   49 |                 CLB |
 +----------+------+---------------------+
 
 
