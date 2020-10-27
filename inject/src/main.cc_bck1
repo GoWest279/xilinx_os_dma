@@ -1,0 +1,61 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <iostream>
+#include <thread>
+#include <random>
+#include <chrono>
+#include <cmath>
+#define X 1024*256
+#define Y 128
+// #define DEBUG
+int main (int arg, char** argv) 
+{
+	int duration = atoi(argv[1]);
+	#ifdef DEBUG
+		printf("duration:%d\n", duration);
+	#endif
+	std::mt19937_64 eng{std::random_device{}()};
+	int ii = 0;
+	int total = 0;
+	int xx = 0;
+//	int yy = 0;
+	auto _start = std::chrono::system_clock::now();
+//	int *mem_start;
+	long temp_result = 0;
+	for(ii=0;ii<duration;ii++) {
+		std::uniform_int_distribution<> dist{1,5};
+		std::this_thread::sleep_for(std::chrono::milliseconds{dist(eng)});
+		total += dist(eng);
+		int *p =  new int[X];
+		// mem_start = p;
+		temp_result = 0;
+		for(xx = 0; xx < X; xx++) {
+			// temp_result = xx;
+			*(p+xx) = xx; 
+			#ifdef DEBUG
+				printf("write:%d, read: %d\n", temp_result, *(p + xx));
+			#endif
+		}
+		for(xx = 0; xx < X; xx++)
+			temp_result += *(p+xx);
+		delete[] p;
+		
+//		if(ii%100 == 0) { 
+			auto _end = std::chrono::system_clock::now();
+			auto measure = (std::chrono::duration_cast<std::chrono::microseconds>(_end-_start)).count();
+			//std::cout<<"Result:"<<temp_result<<"\n";
+        	#ifdef DEBUG
+				std::cout<<"ii: "<<ii<<", Sleep time: "<<total<<", Time: " <<measure<<"us\n";
+			#else
+				std::cout<<ii<<" "<<total<<" "<<measure<<"\n";
+			#endif
+//		}
+	}
+
+	auto _end = std::chrono::system_clock::now();
+    auto measure = (std::chrono::duration_cast<std::chrono::microseconds>(_end-_start)).count();
+	std::cout<<"Result:"<<temp_result<<"\n";
+	std::cout<<"Time:" <<measure<<"us\n";
+	printf("Sleep time: %d ms\n", total);
+	return 0;
+}
