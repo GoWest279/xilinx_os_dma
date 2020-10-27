@@ -1,9 +1,9 @@
 #-----------------------------------------------------------
-# Webtalk v2017.2 (64-bit)
-# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
 # 
-# Start of session at: Sun Oct 25 12:40:23 2020
-# Process ID: 22086
+# Start of session at: Mon Oct 26 08:29:45 2020
+# Process ID: 25225
 # Current directory: /home/ad2039/A02DMA/A00HW/dma/dma.sdk/webtalk
 # Command line: wbtcv -mode batch -source sdk_webtalk.tcl
 # Log file: /home/ad2039/A02DMA/A00HW/dma/dma.sdk/webtalk/webtalk.log

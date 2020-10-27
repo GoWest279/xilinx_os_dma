@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
-| Date         : Sun Oct 25 21:10:25 2020
+| Date         : Mon Oct 26 23:10:43 2020
 | Host         : ad2039 running 64-bit Ubuntu 16.04.6 LTS
 | Command      : report_utilization -file design_1_axi_dma_0_1_utilization_synth.rpt -pb design_1_axi_dma_0_1_utilization_synth.pb
 | Design       : design_1_axi_dma_0_1
@@ -31,15 +31,15 @@ Table of Contents
 +----------------------------+------+-------+-----------+-------+
 |          Site Type         | Used | Fixed | Available | Util% |
 +----------------------------+------+-------+-----------+-------+
-| CLB LUTs*                  | 2071 |     0 |    274080 |  0.76 |
-|   LUT as Logic             | 1883 |     0 |    274080 |  0.69 |
-|   LUT as Memory            |  188 |     0 |    144000 |  0.13 |
+| CLB LUTs*                  | 1501 |     0 |    274080 |  0.55 |
+|   LUT as Logic             | 1343 |     0 |    274080 |  0.49 |
+|   LUT as Memory            |  158 |     0 |    144000 |  0.11 |
 |     LUT as Distributed RAM |    8 |     0 |           |       |
-|     LUT as Shift Register  |  180 |     0 |           |       |
-| CLB Registers              | 3526 |     0 |    548160 |  0.64 |
-|   Register as Flip Flop    | 3526 |     0 |    548160 |  0.64 |
+|     LUT as Shift Register  |  150 |     0 |           |       |
+| CLB Registers              | 1974 |     0 |    548160 |  0.36 |
+|   Register as Flip Flop    | 1974 |     0 |    548160 |  0.36 |
 |   Register as Latch        |    0 |     0 |    548160 |  0.00 |
-| CARRY8                     |   27 |     0 |     34260 |  0.08 |
+| CARRY8                     |   23 |     0 |     34260 |  0.07 |
 | F7 Muxes                   |    0 |     0 |    137040 |  0.00 |
 | F8 Muxes                   |    0 |     0 |     68520 |  0.00 |
 | F9 Muxes                   |    0 |     0 |     34260 |  0.00 |
@@ -61,8 +61,8 @@ Table of Contents
 | 0     |          Yes |           - |            - |
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
-| 136   |          Yes |         Set |            - |
-| 3390  |          Yes |       Reset |            - |
+| 90    |          Yes |         Set |            - |
+| 1884  |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -155,16 +155,16 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDRE     | 3390 |            Register |
-| LUT3     |  566 |                 CLB |
-| LUT4     |  501 |                 CLB |
-| LUT6     |  457 |                 CLB |
-| LUT5     |  354 |                 CLB |
-| LUT2     |  305 |                 CLB |
-| SRL16E   |  180 |                 CLB |
-| FDSE     |  136 |            Register |
-| LUT1     |   96 |                 CLB |
-| CARRY8   |   27 |                 CLB |
+| FDRE     | 1884 |            Register |
+| LUT3     |  384 |                 CLB |
+| LUT6     |  344 |                 CLB |
+| LUT4     |  344 |                 CLB |
+| LUT5     |  246 |                 CLB |
+| LUT2     |  205 |                 CLB |
+| SRL16E   |  150 |                 CLB |
+| FDSE     |   90 |            Register |
+| LUT1     |   80 |                 CLB |
+| CARRY8   |   23 |                 CLB |
 | RAMD32   |   14 |                 CLB |
 | RAMS32   |    2 |                 CLB |
 | RAMB36E2 |    2 |           Block Ram |

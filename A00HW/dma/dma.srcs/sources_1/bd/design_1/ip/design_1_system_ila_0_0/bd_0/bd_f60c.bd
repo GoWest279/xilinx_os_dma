@@ -2312,18 +2312,6 @@
           "g_inst/slot_4_axi"
         ]
       },
-      "Conn2": {
-        "interface_ports": [
-          "SLOT_2_AXIS",
-          "g_inst/slot_2_axis"
-        ]
-      },
-      "Conn": {
-        "interface_ports": [
-          "SLOT_0_AXI",
-          "g_inst/slot_0_axi"
-        ]
-      },
       "Conn3": {
         "interface_ports": [
           "SLOT_3_AXI",
@@ -2336,16 +2324,28 @@
           "g_inst/slot_1_axis"
         ]
       },
-      "Conn5": {
+      "Conn2": {
         "interface_ports": [
-          "SLOT_5_AXI",
-          "g_inst/slot_5_axi"
+          "SLOT_2_AXIS",
+          "g_inst/slot_2_axis"
         ]
       },
       "Conn6": {
         "interface_ports": [
           "SLOT_6_AXI",
           "g_inst/slot_6_axi"
+        ]
+      },
+      "Conn5": {
+        "interface_ports": [
+          "SLOT_5_AXI",
+          "g_inst/slot_5_axi"
+        ]
+      },
+      "Conn": {
+        "interface_ports": [
+          "SLOT_0_AXI",
+          "g_inst/slot_0_axi"
         ]
       }
     },

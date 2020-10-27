@@ -1,6 +1,6 @@
-22:51:16 **** Incremental Build of configuration Debug for project dma_helloworld ****
+20:09:58 **** Incremental Build of configuration Debug for project dma_helloworld ****
 make all 
 make: Nothing to be done for 'all'.
 
-22:51:16 Build Finished (took 416ms)
+20:09:58 Build Finished (took 411ms)
 

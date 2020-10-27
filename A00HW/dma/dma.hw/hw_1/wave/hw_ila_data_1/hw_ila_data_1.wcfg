@@ -10,12 +10,12 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="1024001fs"></ZoomEndTime>
+      <ZoomEndTime time="16062746fs"></ZoomEndTime>
       <Cursor1Time time="696000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="556"></NameColumnWidth>
-      <ValueColumnWidth column_width="376"></ValueColumnWidth>
+      <ValueColumnWidth column_width="372"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="7" />
    <wave_markers>
@@ -26,9 +26,29 @@
       <obj_property name="Detail_Data">Interface_(i1:s3)_(axi_dma_0_M_AXI_SG)_tooltip</obj_property>
       <obj_property name="Render_Data">Interface_(i1:s3)_(axi_dma_0_M_AXI_SG)</obj_property>
       <obj_property name="EnumTransactionColorTable">0=blank</obj_property>
-      <obj_property name="CustomSignalColor">Cornsilk</obj_property>
+      <obj_property name="CustomSignalColor">OliveDrab</obj_property>
       <obj_property name="UseCustomSignalColor">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <wvobject type="group" fp_name="group194">
+         <obj_property name="label">slot_3 : axi_dma_0_M_AXI_SG : Write Transactions 0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Detail_Data">slot_3___axi_dma_0_M_AXI_SG___Write_Transactions_0_tooltip</obj_property>
+         <obj_property name="Render_Data">slot_3___axi_dma_0_M_AXI_SG___Write_Transactions_0</obj_property>
+         <obj_property name="EnumTransactionColorTable">0000=blank</obj_property>
+         <obj_property name="CustomSignalColor">LightSeaGreen</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="group193">
+         <obj_property name="label">slot_3 : axi_dma_0_M_AXI_SG : Read Transactions 0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Detail_Data">slot_3___axi_dma_0_M_AXI_SG___Read_Transactions_0_tooltip</obj_property>
+         <obj_property name="Render_Data">slot_3___axi_dma_0_M_AXI_SG___Read_Transactions_0</obj_property>
+         <obj_property name="EnumTransactionColorTable">0000=blank</obj_property>
+         <obj_property name="CustomSignalColor">Orange</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      </wvobject>
       <wvobject type="group" fp_name="group2">
          <obj_property name="label">slot_3 : axi_dma_0_M_AXI_SG : AR Channel</obj_property>
          <obj_property name="DisplayName">label</obj_property>
@@ -354,9 +374,19 @@
       <obj_property name="Detail_Data">Interface_(i1:s4)_(axi_dma_0_M_AXI_MM2S)_tooltip</obj_property>
       <obj_property name="Render_Data">Interface_(i1:s4)_(axi_dma_0_M_AXI_MM2S)</obj_property>
       <obj_property name="EnumTransactionColorTable">0=blank</obj_property>
-      <obj_property name="CustomSignalColor">Cornsilk</obj_property>
+      <obj_property name="CustomSignalColor">OliveDrab</obj_property>
       <obj_property name="UseCustomSignalColor">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <wvobject type="group" fp_name="group195">
+         <obj_property name="label">slot_4 : axi_dma_0_M_AXI_MM2S : Read Transactions 0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Detail_Data">slot_4___axi_dma_0_M_AXI_MM2S___Read_Transactions_0_tooltip</obj_property>
+         <obj_property name="Render_Data">slot_4___axi_dma_0_M_AXI_MM2S___Read_Transactions_0</obj_property>
+         <obj_property name="EnumTransactionColorTable">0000=blank</obj_property>
+         <obj_property name="CustomSignalColor">Orange</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      </wvobject>
       <wvobject type="group" fp_name="group39">
          <obj_property name="label">slot_4 : axi_dma_0_M_AXI_MM2S : AR Channel</obj_property>
          <obj_property name="DisplayName">label</obj_property>
@@ -627,9 +657,19 @@
       <obj_property name="Detail_Data">Interface_(i1:s5)_(axi_dma_0_M_AXI_S2MM)_tooltip</obj_property>
       <obj_property name="Render_Data">Interface_(i1:s5)_(axi_dma_0_M_AXI_S2MM)</obj_property>
       <obj_property name="EnumTransactionColorTable">0=blank</obj_property>
-      <obj_property name="CustomSignalColor">Cornsilk</obj_property>
+      <obj_property name="CustomSignalColor">OliveDrab</obj_property>
       <obj_property name="UseCustomSignalColor">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <wvobject type="group" fp_name="group196">
+         <obj_property name="label">slot_5 : axi_dma_0_M_AXI_S2MM : Write Transactions 0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Detail_Data">slot_5___axi_dma_0_M_AXI_S2MM___Write_Transactions_0_tooltip</obj_property>
+         <obj_property name="Render_Data">slot_5___axi_dma_0_M_AXI_S2MM___Write_Transactions_0</obj_property>
+         <obj_property name="EnumTransactionColorTable">0000=blank</obj_property>
+         <obj_property name="CustomSignalColor">LightSeaGreen</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      </wvobject>
       <wvobject type="group" fp_name="group70">
          <obj_property name="label">slot_5 : axi_dma_0_M_AXI_S2MM : AR Channel</obj_property>
          <obj_property name="DisplayName">label</obj_property>
@@ -909,7 +949,7 @@
       <obj_property name="Detail_Data">Interface_(i1:s1)_(axis_data_fifo_0_M_AXIS)_tooltip</obj_property>
       <obj_property name="Render_Data">Interface_(i1:s1)_(axis_data_fifo_0_M_AXIS)</obj_property>
       <obj_property name="EnumTransactionColorTable">0=blank</obj_property>
-      <obj_property name="CustomSignalColor">Cornsilk</obj_property>
+      <obj_property name="CustomSignalColor">OliveDrab</obj_property>
       <obj_property name="UseCustomSignalColor">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
       <wvobject type="group" fp_name="group131">
@@ -971,7 +1011,7 @@
       <obj_property name="Detail_Data">Interface_(i1:s2)_(axi_dma_0_M_AXIS_MM2S)_tooltip</obj_property>
       <obj_property name="Render_Data">Interface_(i1:s2)_(axi_dma_0_M_AXIS_MM2S)</obj_property>
       <obj_property name="EnumTransactionColorTable">0=blank</obj_property>
-      <obj_property name="CustomSignalColor">Cornsilk</obj_property>
+      <obj_property name="CustomSignalColor">OliveDrab</obj_property>
       <obj_property name="UseCustomSignalColor">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
       <wvobject type="group" fp_name="group138">
@@ -1037,13 +1077,23 @@
       <obj_property name="UseCustomSignalColor">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
       <obj_property name="isExpanded"></obj_property>
-      <wvobject type="group" fp_name="group708">
+      <wvobject type="group" fp_name="group200">
          <obj_property name="label">slot_0 : ps8_0_axi_periph_M00_AXI : Write Transactions 0</obj_property>
          <obj_property name="DisplayName">label</obj_property>
          <obj_property name="Detail_Data">slot_0___ps8_0_axi_periph_M00_AXI___Write_Transactions_0_tooltip</obj_property>
          <obj_property name="Render_Data">slot_0___ps8_0_axi_periph_M00_AXI___Write_Transactions_0</obj_property>
          <obj_property name="EnumTransactionColorTable">0000=blank</obj_property>
          <obj_property name="CustomSignalColor">LightSeaGreen</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="group199">
+         <obj_property name="label">slot_0 : ps8_0_axi_periph_M00_AXI : Read Transactions 0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Detail_Data">slot_0___ps8_0_axi_periph_M00_AXI___Read_Transactions_0_tooltip</obj_property>
+         <obj_property name="Render_Data">slot_0___ps8_0_axi_periph_M00_AXI___Read_Transactions_0</obj_property>
+         <obj_property name="EnumTransactionColorTable">0000=blank</obj_property>
+         <obj_property name="CustomSignalColor">Orange</obj_property>
          <obj_property name="UseCustomSignalColor">true</obj_property>
          <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
       </wvobject>
@@ -1106,7 +1156,7 @@
          <obj_property name="Detail_Data">R_Channel_(i1:s0)_(ps8_0_axi_periph_M00_AXI)_tooltip</obj_property>
          <obj_property name="Render_Data">R_Channel_(i1:s0)_(ps8_0_axi_periph_M00_AXI)</obj_property>
          <obj_property name="EnumTransactionColorTable">0=blank</obj_property>
-         <obj_property name="CustomSignalColor">Gold</obj_property>
+         <obj_property name="CustomSignalColor">OliveDrab</obj_property>
          <obj_property name="UseCustomSignalColor">true</obj_property>
          <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
          <obj_property name="isExpanded"></obj_property>
@@ -1308,13 +1358,23 @@
       <obj_property name="UseCustomSignalColor">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
       <obj_property name="isExpanded"></obj_property>
-      <wvobject type="group" fp_name="group707">
+      <wvobject type="group" fp_name="group198">
          <obj_property name="label">slot_6 : zynq_ultra_ps_e_0_M_AXI_HPM0_FPD : Write Transactions 0</obj_property>
          <obj_property name="DisplayName">label</obj_property>
          <obj_property name="Detail_Data">slot_6___zynq_ultra_ps_e_0_M_AXI_HPM0_FPD___Write_Transactions_0_tooltip</obj_property>
          <obj_property name="Render_Data">slot_6___zynq_ultra_ps_e_0_M_AXI_HPM0_FPD___Write_Transactions_0</obj_property>
          <obj_property name="EnumTransactionColorTable">0000=blank</obj_property>
          <obj_property name="CustomSignalColor">LightSeaGreen</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="group197">
+         <obj_property name="label">slot_6 : zynq_ultra_ps_e_0_M_AXI_HPM0_FPD : Read Transactions 0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Detail_Data">slot_6___zynq_ultra_ps_e_0_M_AXI_HPM0_FPD___Read_Transactions_0_tooltip</obj_property>
+         <obj_property name="Render_Data">slot_6___zynq_ultra_ps_e_0_M_AXI_HPM0_FPD___Read_Transactions_0</obj_property>
+         <obj_property name="EnumTransactionColorTable">0000=blank</obj_property>
+         <obj_property name="CustomSignalColor">Orange</obj_property>
          <obj_property name="UseCustomSignalColor">true</obj_property>
          <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
       </wvobject>
